@@ -1,0 +1,226 @@
+@font-face {
+  font-family: 'FiraSans';
+  src: url(/assets/fonts/Fira_Sans/FiraSans-Regular.ttf);
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'FiraSans';
+  src: url(/assets/fonts/Fira_Sans/FiraSans-Bold.ttf);
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'CormorantGaramond';
+  src: url(/assets/fonts/Cormorant_Garamond/CormorantGaramond-SemiBoldItalic.ttf);
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'CormorantGaramond';
+  src: url(/assets/fonts/Cormorant_Garamond/CormorantGaramond-SemiBold.ttf);
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'CormorantGaramond';
+  src: url(/assets/fonts/Cormorant_Garamond/CormorantGaramond-Medium.ttf);
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'CormorantGaramond';
+  src: url(/assets/fonts/Cormorant_Garamond/CormorantGaramond-Bold.ttf);
+  font-style: normal;
+  font-weight: 800;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: #000;
+  text-decoration: #000;
+}
+a:hover {
+  color: #000;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+.bonfire-container {
+  max-width: 1200px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.feature-container {
+  max-width: 1750px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+}
+.header-top {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  margin-left: 80px;
+}
+.header-top .nav {
+  display: flex;
+  padding-top: 10px;
+  font-size: 30px;
+  color: #fff;
+}
+.header-top .nav .cart a {
+  color: #fff;
+}
+.header-top .nav .dropdown {
+  margin-left: 40px;
+}
+.header-right .social-list ul {
+  margin-left: 80px;
+  position: absolute;
+  top: 60%;
+  text-align: right;
+}
+.header-right .social-list ul a {
+  font-family: 'CormorantGaramond';
+  font-weight: 600;
+  font-size: 24px;
+  color: #ffffff;
+  line-height: 1.667;
+}
+.slider {
+  max-height: 1000px;
+  overflow: hidden;
+}
+.slider .slick-next {
+  right: 20px;
+  z-index: -10;
+}
+.slider-item {
+  position: relative;
+}
+.slider-item img {
+  width: 100%;
+}
+.slider-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -64%);
+  -webkit-transform: translate(-50%, -64%);
+  -moz-transform: translate(-50%, -64%);
+  -ms-transform: translate(-50%, -64%);
+  -o-transform: translate(-50%, -64%);
+}
+.slider-content .slider-left {
+  width: 80%;
+  padding: 0 15px;
+  margin: 15px 0;
+  box-sizing: border-box;
+}
+.slider-content .slider-left .summary {
+  font-family: 'FiraSans';
+  font-size: 24.339px;
+  color: #696969;
+  letter-spacing: 0.5em;
+}
+.slider-content .slider-left .title {
+  font-family: 'CormorantGaramond';
+  font-size: 100px;
+  color: #333333;
+  text-transform: uppercase;
+  line-height: 1;
+  letter-spacing: 0.3em;
+}
+.slider-content .slider-left .discorver {
+  width: 197px;
+  height: 48px;
+  background-color: #333333;
+  line-height: 48px;
+  text-align: center;
+}
+.slider-content .slider-left .discorver:hover {
+  background-color: red;
+}
+.slider-content .slider-left .discorver a {
+  font-family: 'FiraSans';
+  font-weight: 600;
+  color: #ffffff;
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+.content .border {
+  text-align: center;
+  border: 1px solid #efefef;
+}
+.content-top {
+  text-align: center;
+  width: 33.33332%;
+  padding: 0 15px;
+  margin: 15px 0;
+  box-sizing: border-box;
+}
+.content-top .intro .big {
+  font-family: 'CormorantGaramond';
+  font-weight: 800;
+  font-size: 18px;
+  color: #333333;
+  text-transform: uppercase;
+  text-align: center;
+}
+.content-top .intro .small {
+  font-family: 'FiraSans';
+  font-weight: 400;
+  font-size: 14px;
+  color: #b8b8b8;
+  text-align: center;
+}
+.content .text {
+  text-align: center;
+  height: 330px;
+  width: 100%;
+}
+.content .text-info {
+  width: 66.66665%;
+  padding: 0 15px;
+  margin: 15px 0;
+  box-sizing: border-box;
+  margin: auto;
+  font-family: 'CormorantGaramond';
+  font-weight: 500;
+  font-size: 34px;
+  color: #333333;
+  padding-top: 120px;
+}
+.content .banner {
+  align-items: center;
+}
+.content .banner .banner2 {
+  margin-right: 300px;
+}
+/*# sourceMappingURL=style.css.map */
