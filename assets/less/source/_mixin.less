@@ -5,3 +5,18 @@
     margin: 15px 0;
     box-sizing: border-box;
 }
+
+.col-feature(@col) {
+    width: calc(100% / 12 * @col);
+    padding: 0 25px;
+    margin: 25px 0;
+    box-sizing: border-box;
+}
+
+.transform(@translate){
+    transform: @translate;
+    -webkit-transform: @translate;
+    -moz-transform: @translate;
+    -ms-transform: @translate;
+    -o-transform: @translate;
+}

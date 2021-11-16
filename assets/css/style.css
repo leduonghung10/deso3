@@ -71,6 +71,11 @@ ul li {
   flex-wrap: wrap;
   margin: 0 -15px;
 }
+.feature-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -25px;
+}
 .dropdown:hover .dropdown-content {
   display: block;
 }
@@ -103,7 +108,13 @@ ul li {
 .header-right .social-list ul {
   margin-left: 80px;
   position: absolute;
-  top: 60%;
+  top: 55%;
+  right: 4%;
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
   text-align: right;
 }
 .header-right .social-list ul a {
@@ -217,10 +228,152 @@ ul li {
   color: #333333;
   padding-top: 120px;
 }
-.content .banner {
-  align-items: center;
+.banner-small {
+  position: relative;
+  width: calc(100% / 12 * 3);
+  padding: 0 25px;
+  margin: 25px 0;
+  box-sizing: border-box;
 }
-.content .banner .banner2 {
-  margin-right: 300px;
+.banner-small-inner1 {
+  position: absolute;
+  top: 62.5%;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  letter-spacing: 0.08em;
+  text-align: center;
+}
+.banner-small-inner3 {
+  position: absolute;
+  top: 50%;
+  left: 38%;
+  transform: translateX(-38%);
+  -webkit-transform: translateX(-38%);
+  -moz-transform: translateX(-38%);
+  -ms-transform: translateX(-38%);
+  -o-transform: translateX(-38%);
+}
+.banner-small-inner5 {
+  position: absolute;
+  top: 80%;
+  left: 49%;
+  transform: translateX(-49%);
+  -webkit-transform: translateX(-49%);
+  -moz-transform: translateX(-49%);
+  -ms-transform: translateX(-49%);
+  -o-transform: translateX(-49%);
+  text-align: center;
+}
+.banner-small .title {
+  font-family: 'FiraSans';
+  font-weight: 400;
+  font-size: 24px;
+  color: #333333;
+}
+.banner-small .a {
+  font-size: 14px;
+}
+.banner-small .cost-b span {
+  font-size: 70px;
+}
+.banner-small span {
+  text-align: center;
+  font-family: 'CormorantGaramond';
+  font-weight: 800;
+  font-size: 24px;
+  color: #d6ba8d;
+}
+.banner-big {
+  position: relative;
+  width: calc(100% / 12 * 6);
+  padding: 0 25px;
+  margin: 25px 0;
+  box-sizing: border-box;
+}
+.banner-big-inner2 {
+  position: absolute;
+  top: 31%;
+  left: 81%;
+  transform: translateX(-81%);
+  -webkit-transform: translateX(-81%);
+  -moz-transform: translateX(-81%);
+  -ms-transform: translateX(-81%);
+  -o-transform: translateX(-81%);
+  text-align: center;
+}
+.banner-big-inner6 {
+  position: absolute;
+  top: 20%;
+  left: 41%;
+  transform: translateX(-41%);
+  -webkit-transform: translateX(-41%);
+  -moz-transform: translateX(-41%);
+  -ms-transform: translateX(-41%);
+  -o-transform: translateX(-41%);
+}
+.banner-big .title {
+  font-size: 48px;
+  font-family: 'FiraSans';
+  font-weight: 400;
+  font-weight: bold;
+}
+.banner-big .detail {
+  font-family: 'CormorantGaramond';
+  font-weight: 800;
+  font-size: 14px;
+}
+.feater-nav {
+  margin-top: 125px;
+}
+.feater-nav-item {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.feater-nav-item .feater {
+  font-size: 56px;
+  font-family: 'CormorantGaramond';
+  font-weight: 800;
+}
+.feater-nav-item .view-more {
+  font-size: 14px;
+  font-family: 'FiraSans';
+  font-weight: 600;
+  position: absolute;
+  top: 42%;
+  right: 0;
+  transform: translateX(0, -42%);
+  -webkit-transform: translateX(0, -42%);
+  -moz-transform: translateX(0, -42%);
+  -ms-transform: translateX(0, -42%);
+  -o-transform: translateX(0, -42%);
+}
+.feater-item .item {
+  position: relative;
+  width: 25%;
+  padding: 0 15px;
+  margin: 15px 0;
+  box-sizing: border-box;
+}
+.blogupdate {
+  background-color: #faf9f9;
+}
+.blogupdate .title {
+  font-size: 56px;
+  font-family: 'CormorantGaramond';
+  font-weight: 800;
+  text-align: center;
+  margin-top: 100px;
+}
+.blogupdate-item {
+  position: relative;
+  width: calc(100% / 12 * 4);
+  padding: 0 25px;
+  margin: 25px 0;
+  box-sizing: border-box;
 }
 /*# sourceMappingURL=style.css.map */

@@ -41,10 +41,128 @@
             padding-top: 120px;
         }
     }
-    .banner{
-        align-items: center;
-        .banner2{
-            margin-right: 300px;
+}
+.banner{
+    &-small {
+        position: relative;
+        .col-feature(3);
+        &-inner1{
+            position: absolute;
+            top: 62.5%;
+            left: 50%;
+            .transform(translateX(-50%));
+            letter-spacing: 0.08em;
+            text-align: center;
         }
+        &-inner3{
+            position: absolute;
+            top: 50%;
+            left: 38%;
+            .transform(translateX(-38%));
+        }
+        &-inner5{
+            position: absolute;
+            top: 80%;
+            left: 49%;
+            .transform(translateX(-49%));
+            text-align: center;
+        }
+        .title{
+
+            font-family: 'FiraSans';
+            font-weight: 400;
+            font-size: 24px;
+            color: rgb(51, 51, 51);
+        }
+        .a{
+            font-size: 14px;
+        }
+        .cost-b{
+            span{
+                font-size: 70px;
+            }
+        }
+        span{
+
+            text-align: center; 
+            font-family: 'CormorantGaramond';
+            font-weight: 800;
+            font-size: 24px;
+            color: rgb(214, 186, 141);
+        }
+    }
+    &-big {
+        position: relative;
+        .col-feature(6);
+        &-inner2{
+            position: absolute;
+            top: 31%;
+            left: 81%;
+            .transform(translateX(-81%));
+            text-align: center;
+        }
+        &-inner6{
+            position: absolute;
+            top: 20%;
+            left: 41%;
+            .transform(translateX(-41%));
+        }
+        .title{
+            font-size: 48px;
+            font-family:'FiraSans';
+            font-weight: 400;
+            font-weight: bold;
+        }
+        .detail{
+            font-family: 'CormorantGaramond';
+            font-weight: 800;
+            font-size: 14px;
+        }
+    }
+}
+
+.feater-nav{
+    margin-top: 125px;
+    &-item{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        .feater{
+            font-size: 56px;
+            font-family: 'CormorantGaramond';
+            font-weight: 800;
+
+        }
+        .view-more{
+            font-size: 14px;
+            font-family:'FiraSans';
+            font-weight: 600;
+            position: absolute;
+            top: 42%;
+            right: 0;
+            .transform(translateX(0,-42%));
+        }
+    }
+}
+
+.feater-item{
+    .item{
+        position: relative;
+        .col(25%);
+    }
+}
+
+.blogupdate{
+    background-color: #faf9f9;
+    .title{
+        font-size: 56px;
+        font-family:'CormorantGaramond';
+        font-weight: 800;
+        text-align: center;
+        margin-top: 100px;
+    }
+    &-item{
+        position: relative;
+        .col-feature(4);
     }
 }
