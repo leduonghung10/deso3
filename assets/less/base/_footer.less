@@ -1,0 +1,85 @@
+.footer{
+    background-color: #333333;
+
+    &-top{
+        padding-top: 30px;
+        position: relative;
+        border-bottom: 3px solid #000;
+        padding-bottom: 80px;
+        display: flex;
+        justify-content: space-between;
+        .listmenu{
+            position: absolute;
+            top: 44%;
+            left: 29%;
+            .transform(translateX(-29%,0));
+            ul{
+                display: flex;
+                li{
+                    a{
+                        padding-right: 30px;
+                        font-family: 'FiraSans';
+                        font-weight: 600;
+                        font-size: 14px;
+                        color: #717171;
+                    }
+                }
+            }
+        }
+        .sub{
+            &:hover{
+                background-color: #d6ba8d;
+            }
+            font-family: 'FiraSans';
+            font-weight: 600;
+            font-size: 14px;
+            color: #717171;
+            width: 150px;
+            height: 40px;
+            border: 2px solid #717171;
+            position: absolute;
+            top: 36%;
+            left: 87%;
+            .transform(translateX(-87%,0));
+            &-btn{
+                line-height: 40px;
+                text-align: center;
+                i{
+                    color: #d6ba8d;
+                    padding-left: 5px;
+                }
+            }
+        }
+    }
+    &-bottom{
+        padding-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        .left{
+            font-family: 'FiraSans';
+            font-weight: 400;
+            font-size: 14px;
+            color: #606060;
+        }
+        .right{
+            ul{
+                display: flex;
+                .circle{
+                    width: 44px;
+                    height: 44px;
+                    border-width: 2px;
+                    border-color: rgb(105, 105, 105);
+                    border-style: solid;
+                    border-radius: 50%;
+                    line-height: 44px;
+                    text-align: center;
+                    margin-left: 10px;
+                    &:hover{
+                        background-color: #d6ba8d;
+                    }
+                }
+            }
+           
+        }
+    }
+}

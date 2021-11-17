@@ -103,9 +103,9 @@
         }
         &-inner6{
             position: absolute;
-            top: 20%;
-            left: 41%;
-            .transform(translateX(-41%));
+            top: 21%;
+            left: 23%;
+            .transform(translateX(-23%));
         }
         .title{
             font-size: 48px;
@@ -141,6 +141,9 @@
             top: 42%;
             right: 0;
             .transform(translateX(0,-42%));
+            i{
+                padding-left: 5px;
+            }
         }
     }
 }
@@ -149,6 +152,20 @@
     .item{
         position: relative;
         .col(25%);
+        &-inner{
+            text-align: center;
+            .title{
+                font-family: 'FiraSans';
+                font-weight: 400;
+                font-size: 14px;
+            }
+            .price{
+                font-family: 'CormorantGaramond';
+                font-weight: 800;
+                font-style: 18px;
+                color: #f4b9b9;
+            }
+        }
     }
 }
 
@@ -161,8 +178,57 @@
         text-align: center;
         margin-top: 100px;
     }
-    &-item{
+    .blog-item{
+        height: 470px;
+        width: 371px;
+        background-color: #fff;
         position: relative;
         .col-feature(4);
+    }
+    .blog-inner{
+        position: absolute;
+        top: 44%;
+        left: 12%;
+        .transform(translateX(-12%,0));
+        .date{
+            font-family: 'FiraSans';
+            font-weight: 400;
+            font-size: 14px;
+            color: rgb(204, 204, 204);
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        .head{
+            font-family: 'CormorantGaramond';
+            font-weight: 800;
+            font-size: 24px;
+            border-bottom: 1px solid #000;
+            padding-bottom: 30px;
+        }
+        .view{
+            margin-top: 70px;
+            font-family: 'FiraSans';
+            font-weight: 400;
+            font-size: 14px;
+            color: #8c8c8c;
+            display: flex;
+            .views{
+                padding-right: 10px;
+            }
+        }
+    }
+    .goto-blog{
+        text-align: center;
+        padding-top: 70px;
+        font-family: 'FiraSans';
+        font-weight: 400;
+        font-size: 14px;
+    }
+}
+
+.brand{
+    padding-top: 150px;
+    &-item{
+        .col(16.6666%);
     }
 }

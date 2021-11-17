@@ -1,7 +1,7 @@
 .slider{
     max-height: 1000px;
     overflow: hidden;
-
+    position: relative;
     .slick-arrow{
 
     }
@@ -56,6 +56,27 @@
                     color: rgb(255, 255, 255);
                     text-transform: uppercase;
                     line-height: 1.5;
+                }
+            }
+        }
+        .slider-right{
+            .social{
+                .social-list{
+                    ul{
+                        margin-left: 80px;
+                        position: absolute;
+                        top: 37%;
+                        right: -21%;
+                        .transform(translateX(-21%,0));
+                        text-align: right;
+                        a{
+                            font-family: 'CormorantGaramond';
+                            font-weight: 600;
+                            font-size: 24px;
+                            color: rgb(255, 255, 255);
+                            line-height: 1.667;
+                        }
+                    }
                 }
             }
         }
