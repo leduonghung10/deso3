@@ -45,10 +45,14 @@
 .banner{
     &-small {
         position: relative;
+        img{
+            display: block;
+            width: 100%;
+        }
         .col-feature(3);
         &-inner1{
             position: absolute;
-            top: 62.5%;
+            top: 80%;
             left: 50%;
             .transform(translateX(-50%));
             letter-spacing: 0.08em;
@@ -56,7 +60,7 @@
         }
         &-inner3{
             position: absolute;
-            top: 50%;
+            top: 63%;
             left: 38%;
             .transform(translateX(-38%));
         }
@@ -93,13 +97,29 @@
     }
     &-big {
         position: relative;
+        img{
+            display: block;
+            width: 100%;
+        }
         .col-feature(6);
         &-inner2{
             position: absolute;
             top: 31%;
-            left: 81%;
-            .transform(translateX(-81%));
+            left: 82%;
+            .transform(translateX(-82%));
             text-align: center;
+            .sale-up{
+                font-size: 24px;
+            }
+            .discount{
+                font-size: 66px;
+                font-family:'FiraSans';
+                font-weight: 400;
+                font-weight: bold;
+            }
+            .btn{
+                padding-top: 10px;
+            }
         }
         &-inner6{
             position: absolute;
@@ -151,6 +171,10 @@
 .feater-item{
     .item{
         position: relative;
+        img{
+            display: block;
+            width: 100%;
+        }
         .col(25%);
         &-inner{
             text-align: center;
@@ -179,6 +203,10 @@
         margin-top: 100px;
     }
     .blog-item{
+        img{
+            display: block;
+            width: 100%;
+        }
         height: 470px;
         width: 371px;
         background-color: #fff;
@@ -230,5 +258,9 @@
     padding-top: 150px;
     &-item{
         .col(16.6666%);
+        img{
+            display: block;
+            width: 100%;
+        }
     }
 }

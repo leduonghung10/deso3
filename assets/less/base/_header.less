@@ -1,12 +1,11 @@
 .header{
     &-top{
         position: absolute;
-        left: 0;
-        top: 0;
+        left: 4%;
+        top: 4%;
+        .transform(translateX(-4%,0));
         display: flex;
         justify-content: space-between;
-        padding-top: 30px;
-        margin-left: 80px;
         .nav{
             display: flex;
             padding-top: 10px;
@@ -19,6 +18,26 @@
             }
             .dropdown{
                 margin-left: 40px;
+            }
+        }
+        .slider-right{
+            .social{
+                .social-list{
+                    ul{
+                        margin-left: 80px;
+                        position: absolute;
+                        top: 0%;
+                        right: 50%;
+                        .transform(translateX(-50%,0));
+                        a{
+                            font-family: 'CormorantGaramond';
+                            font-weight: 600;
+                            font-size: 24px;
+                            color: rgb(255, 255, 255);
+                            line-height: 1.667;
+                        }
+                    }
+                }
             }
         }
     }
@@ -41,5 +60,13 @@
             }
 
         }       
+    }
+    .slider{
+        &-item{
+            img{
+                display: block;
+                width: 100%;
+            }
+        }
     }
 }

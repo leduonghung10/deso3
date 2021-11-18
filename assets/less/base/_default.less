@@ -48,9 +48,25 @@ ul {
         }
     }
     &-content {
+        width: 30%;
         display: none;
         position: absolute;
-        background-color: #fff;
+        background-color:rgb(105, 105, 105);
+        text-align: right;
+        top: 0%;
+        left: 97%;
+        .transform(translate(-97%,0));
+        .dropdown-opt{
+            text-align: center;
+            text-transform: uppercase;
+            border-bottom: 1px solid #000;
+            &:hover{               
+                    background: crimson;    
+            }
+            a{
+                color: #fff;
+            }
+        }
     }
 }
 
