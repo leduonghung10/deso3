@@ -1,36 +1,36 @@
 @font-face {
   font-family: 'FiraSans';
-  src: url(/assets/fonts/Fira_Sans/FiraSans-Regular.ttf);
+  src: url(../fonts/Fira_Sans/FiraSans-Regular.ttf);
   font-style: normal;
   font-weight: 400;
 }
 @font-face {
   font-family: 'FiraSans';
-  src: url(/assets/fonts/Fira_Sans/FiraSans-Bold.ttf);
+  src: url(../fonts/Fira_Sans/FiraSans-Bold.ttf);
   font-style: normal;
   font-weight: 600;
 }
 @font-face {
   font-family: 'CormorantGaramond';
-  src: url(/assets/fonts/Cormorant_Garamond/CormorantGaramond-SemiBoldItalic.ttf);
+  src: url(../fonts/Cormorant_Garamond/CormorantGaramond-SemiBoldItalic.ttf);
   font-style: normal;
   font-weight: 400;
 }
 @font-face {
   font-family: 'CormorantGaramond';
-  src: url(/assets/fonts/Cormorant_Garamond/CormorantGaramond-SemiBold.ttf);
+  src: url(../fonts/Cormorant_Garamond/CormorantGaramond-SemiBold.ttf);
   font-style: normal;
   font-weight: 500;
 }
 @font-face {
   font-family: 'CormorantGaramond';
-  src: url(/assets/fonts/Cormorant_Garamond/CormorantGaramond-Medium.ttf);
+  src: url(../fonts/Cormorant_Garamond/CormorantGaramond-Medium.ttf);
   font-style: normal;
   font-weight: 600;
 }
 @font-face {
   font-family: 'CormorantGaramond';
-  src: url(/assets/fonts/Cormorant_Garamond/CormorantGaramond-Bold.ttf);
+  src: url(../fonts/Cormorant_Garamond/CormorantGaramond-Bold.ttf);
   font-style: normal;
   font-weight: 800;
 }
