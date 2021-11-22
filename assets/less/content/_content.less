@@ -170,14 +170,88 @@
 
 .feater-item{
     .item{
-        position: relative;
+        &:hover{
+            .favorite{            
+                    opacity: 1;
+            }
+            .slick-next{           
+                    opacity: 1;
+            }
+            .slick-prev{
+                    opacity: 1;
+            }
+        }
+        .favorite{
+            opacity: 0;
+            display: flex;
+            position: absolute;
+            bottom: 16%;
+            left: 2%;
+            .transform(translateX(-2%,-16%));
+            .add{
+                height: 40px;
+                width: 140px;
+                background-color: #d6ba8d;
+                &-to-cart{
+                    font-family: 'FiraSans';
+                    font-weight: 600;
+                    font-size: 14px;
+                    color: white;
+                    line-height: 40px;
+                    text-align: center;
+                    text-transform: uppercase;
+                }
+            }
+            ul{
+                display: flex;
+                li{
+                    height: 40px;
+                    width: 40px;
+                    background-color: #585858;
+                    margin-right: 2px;
+                    line-height: 40px;
+                    text-align: center;
+                    i{
+                        
+                        color: #cccccc;
+                    }
+                }
+            }
+        }
+        .slick-arrow{
+           
+        }
+        .slick-prev{
+            opacity: 0;
+            z-index: 1000;
+            left: 20px;
+            &::before{
+                font-family: 'Font Awesome 5 Free';
+                font-weight: 900;
+                content: '\f053';
+                color: black;
+            }
+        }
+        .slick-next{
+            opacity: 0;
+            z-index: 1000;
+            right: 20px;
+            &::before{
+                font-family: 'Font Awesome 5 Free';
+                font-weight: 900;
+                content: '\f054';
+                color: black;
+            }          
+        }
         img{
+            position: relative;
             display: block;
             width: 100%;
         }
         .col(25%);
         &-inner{
             text-align: center;
+            padding-top: 25px;
             .title{
                 font-family: 'FiraSans';
                 font-weight: 400;
@@ -258,6 +332,10 @@
     padding-top: 150px;
     &-item{
         .col(16.6666%);
+        opacity: 0.5;
+        &:hover{
+            opacity: 1;
+        }
         img{
             display: block;
             width: 100%;
