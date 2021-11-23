@@ -639,7 +639,6 @@ ul li {
 .blogupdate .blog-item {
   background-color: #fff;
   position: relative;
-  width: 370px;
   padding: 0px 0px;
   margin: 0px 15px;
   box-sizing: border-box;
@@ -711,10 +710,11 @@ ul li {
   margin: 15px 0;
   box-sizing: border-box;
   opacity: 0.5;
-  height: 30px;
   position: relative;
 }
 .brand-item img {
+  height: 30px;
+  text-align: center;
   object-fit: scale-down;
   object-position: top;
 }
