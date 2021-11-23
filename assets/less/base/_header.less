@@ -1,23 +1,35 @@
 .header{
     &-top{
         position: absolute;
-        left: 4%;
-        top: 4%;
-        .transform(translateX(-4%,0));
+        left: 4.5%;
+        top: 5%;
+        .transform(translateX(-4.5%,0));
         display: flex;
         justify-content: space-between;
         .nav{
             display: flex;
             padding-top: 10px;
             font-size: 30px;
+            line-height: 21px;
             color: #fff;
             .cart{
                 a{
-                    color: #fff;
+                    font-size: 30px;
+                    line-height: 21px;
+                    color: #ffffff;
+                    font-family: "Ionicons";
                 }
             }
             .dropdown{
                 margin-left: 40px;
+                &-btn{
+                    ion-icon{
+                        font-size: 30px;
+                        line-height: 21px;
+                        color: #ffffff;
+                        font-family: "Ionicons";
+                    }
+                }
             }
         }
         .slider-right{

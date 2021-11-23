@@ -2,26 +2,33 @@
     background-color: #333333;
 
     &-top{
-        padding-top: 30px;
-        position: relative;
-        border-bottom: 3px solid #000;
-        padding-bottom: 80px;
-        display: flex;
-        justify-content: space-between;
+        
+    padding-top: 64px;
+    position: relative;
+    border-bottom: 3px solid #000;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
         .listmenu{
             position: absolute;
-            top: 44%;
-            left: 29%;
-            .transform(translateX(-29%,0));
+            top: 60%;
+            left: 26%;
+            .transform(translateX(-26%,0));
             ul{
                 display: flex;
+                line-height: 24px;
                 li{
                     a{
-                        padding-right: 30px;
+                        padding-left: 19px;
+                        padding-right: 16px;
                         font-family: 'FiraSans';
                         font-weight: 600;
-                        font-size: 14px;
                         color: #717171;
+                        font-size: 14px;
+                        letter-spacing: 1px;
+                        &:hover{
+                            color: #d6ba8d;
+                        }
                     }
                 }
             }
@@ -34,25 +41,33 @@
             font-weight: 600;
             font-size: 14px;
             color: #717171;
-            width: 150px;
-            height: 40px;
+            width: 156px;
+            height: 38px;
             border: 2px solid #717171;
             position: absolute;
-            top: 36%;
-            left: 86%;
-            .transform(translateX(-86%,0));
+            top: 56%;
+            left: 86.5%;
+            .transform(translateX(-86.5%,0));
             &-btn{
-                line-height: 40px;
+                line-height: 38px;
                 text-align: center;
+                text-transform: uppercase;
+                font-size: 14px;
+                letter-spacing: 4px;
+                color: #ababab;
+                font-weight: 600;
+                font-family: "Fira Sans";
                 i{
                     color: #d6ba8d;
-                    padding-left: 5px;
+                    padding-left: 10px;
                 }
             }
         }
     }
     &-bottom{
-        padding-top: 30px;
+        position: relative;
+        padding-top: 43px;
+        padding-bottom: 73px;
         display: flex;
         justify-content: space-between;
         .left{
@@ -63,6 +78,10 @@
         }
         .right{
             ul{
+                position: absolute;
+                top: 16%;
+                left: 80.3%;
+                .transform(translateX(-80.3%,0));
                 display: flex;
                 .circle{
                     width: 44px;
