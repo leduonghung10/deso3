@@ -182,13 +182,13 @@ ul li {
 }
 .slider-content {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
+  top: 54%;
+  left: 48.1%;
+  transform: translate(-48.1%, -54%);
+  -webkit-transform: translate(-48.1%, -54%);
+  -moz-transform: translate(-48.1%, -54%);
+  -ms-transform: translate(-48.1%, -54%);
+  -o-transform: translate(-48.1%, -54%);
 }
 .slider-content .slider-left {
   width: 80%;
@@ -201,6 +201,7 @@ ul li {
   font-size: 24.339px;
   color: #696969;
   letter-spacing: 0.5em;
+  padding-bottom: 17px;
 }
 .slider-content .slider-left .title {
   font-family: 'CormorantGaramond';
@@ -209,6 +210,8 @@ ul li {
   text-transform: uppercase;
   line-height: 1;
   letter-spacing: 0.3em;
+  padding-top: 17px;
+  padding-bottom: 40px;
 }
 .slider-content .slider-left .discorver {
   width: 197px;
