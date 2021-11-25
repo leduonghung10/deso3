@@ -1,19 +1,19 @@
 .footer{
     background-color: #333333;
-
+    width: 100%;
     &-top{
         
     padding-top: 64px;
     position: relative;
-    border-bottom: 3px solid #000;
+    border-bottom: 1px solid rgb(36, 36, 36);
     padding-bottom: 70px;
     display: flex;
     justify-content: space-between;
         .listmenu{
             position: absolute;
             top: 60%;
-            left: 26%;
-            .transform(translateX(-26%,0));
+            left: 48.5%;
+            .transform(translate(-47.5%,0));
             ul{
                 display: flex;
                 line-height: 24px;
@@ -46,8 +46,8 @@
             border: 2px solid #717171;
             position: absolute;
             top: 56%;
-            left: 86.5%;
-            .transform(translateX(-86.5%,0));
+            right: 0%;
+            .transform(translate(0,0));
             &-btn{
                 line-height: 38px;
                 text-align: center;
@@ -80,8 +80,8 @@
             ul{
                 position: absolute;
                 top: 16%;
-                left: 80.3%;
-                .transform(translateX(-80.3%,0));
+                right: 0%;
+                .transform(translate());
                 display: flex;
                 .circle{
                     width: 44px;
@@ -93,6 +93,11 @@
                     line-height: 44px;
                     text-align: center;
                     margin-left: 10px;
+                    a{
+                        i{
+                            color: #ababab;
+                        }
+                    }
                     &:hover{
                         background-color: #d6ba8d;
                     }

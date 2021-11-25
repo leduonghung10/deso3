@@ -106,13 +106,13 @@ ul li {
 }
 .header-top {
   position: absolute;
-  left: 4.5%;
+  left: -6.5%;
   top: 5%;
-  transform: translateX(-4.5%, 0);
-  -webkit-transform: translateX(-4.5%, 0);
-  -moz-transform: translateX(-4.5%, 0);
-  -ms-transform: translateX(-4.5%, 0);
-  -o-transform: translateX(-4.5%, 0);
+  transform: translate(12%, 0);
+  -webkit-transform: translate(12%, 0);
+  -moz-transform: translate(12%, 0);
+  -ms-transform: translate(12%, 0);
+  -o-transform: translate(12%, 0);
   display: flex;
   justify-content: space-between;
 }
@@ -320,11 +320,11 @@ ul li {
   position: absolute;
   top: 78%;
   left: 50%;
-  transform: translateX(-50%);
-  -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
+  transform: translate(-50%);
+  -webkit-transform: translate(-50%);
+  -moz-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  -o-transform: translate(-50%);
   letter-spacing: 0.08em;
   text-align: center;
 }
@@ -342,11 +342,11 @@ ul li {
   position: absolute;
   top: 64%;
   left: 40%;
-  transform: translateX(-40%);
-  -webkit-transform: translateX(-40%);
-  -moz-transform: translateX(-40%);
-  -ms-transform: translateX(-40%);
-  -o-transform: translateX(-40%);
+  transform: translate(-40%);
+  -webkit-transform: translate(-40%);
+  -moz-transform: translate(-40%);
+  -ms-transform: translate(-40%);
+  -o-transform: translate(-40%);
 }
 .banner-small-inner3 .title {
   font-size: 14px;
@@ -367,11 +367,11 @@ ul li {
   position: absolute;
   top: 78%;
   left: 49%;
-  transform: translateX(-49%);
-  -webkit-transform: translateX(-49%);
-  -moz-transform: translateX(-49%);
-  -ms-transform: translateX(-49%);
-  -o-transform: translateX(-49%);
+  transform: translate(-49%);
+  -webkit-transform: translate(-49%);
+  -moz-transform: translate(-49%);
+  -ms-transform: translate(-49%);
+  -o-transform: translate(-49%);
   text-align: center;
 }
 .banner-small-inner5 .title2 {
@@ -407,12 +407,12 @@ ul li {
 .banner-big-inner2 {
   position: absolute;
   top: 21%;
-  left: 65%;
-  transform: translateX(-65%, -21%);
-  -webkit-transform: translateX(-65%, -21%);
-  -moz-transform: translateX(-65%, -21%);
-  -ms-transform: translateX(-65%, -21%);
-  -o-transform: translateX(-65%, -21%);
+  left: 85.5%;
+  transform: translate(-85.5%);
+  -webkit-transform: translate(-85.5%);
+  -moz-transform: translate(-85.5%);
+  -ms-transform: translate(-85.5%);
+  -o-transform: translate(-85.5%);
   text-align: center;
 }
 .banner-big-inner2 .sale-up {
@@ -421,6 +421,7 @@ ul li {
   line-height: 64px;
 }
 .banner-big-inner2 .sale-up2 {
+  width: 220px;
   font-size: 24px;
   line-height: 64px;
   font-weight: 700;
@@ -450,11 +451,11 @@ ul li {
   position: absolute;
   top: 26.5%;
   left: 13%;
-  transform: translateX(-13%);
-  -webkit-transform: translateX(-13%);
-  -moz-transform: translateX(-13%);
-  -ms-transform: translateX(-13%);
-  -o-transform: translateX(-13%);
+  transform: translate(-13%);
+  -webkit-transform: translate(-13%);
+  -moz-transform: translate(-13%);
+  -ms-transform: translate(-13%);
+  -o-transform: translate(-13%);
 }
 .banner-big-inner6 .title3 {
   font-size: 48px;
@@ -493,12 +494,12 @@ ul li {
   font-family: "Fira Sans";
   position: absolute;
   top: 53%;
-  right: 1.5%;
-  transform: translateX(1.5%, -58%);
-  -webkit-transform: translateX(1.5%, -58%);
-  -moz-transform: translateX(1.5%, -58%);
-  -ms-transform: translateX(1.5%, -58%);
-  -o-transform: translateX(1.5%, -58%);
+  right: 0.5%;
+  transform: translate(0.5%);
+  -webkit-transform: translate(0.5%);
+  -moz-transform: translate(0.5%);
+  -ms-transform: translate(0.5%);
+  -o-transform: translate(0.5%);
 }
 .feater-nav-item .view-more ion-icon {
   padding-left: 10px;
@@ -507,15 +508,22 @@ ul li {
   line-height: 24px;
   color: #d6ba8d;
   font-family: "Ionicons";
+  vertical-align: middle;
 }
 .feater-item {
   padding-top: 47px;
+}
+.feater-item img {
+  position: relative;
 }
 .feater-item .item {
   width: 25%;
   padding: 0 15px;
   margin: 15px 0;
   box-sizing: border-box;
+}
+.feater-item .item:hover .favorite {
+  opacity: 1;
 }
 .feater-item .item:hover .slick-next {
   opacity: 1;
@@ -524,23 +532,24 @@ ul li {
   opacity: 1;
 }
 .feater-item .item .favorite {
+  width: 100%;
+  justify-content: space-between;
   opacity: 0;
   display: flex;
   position: absolute;
   bottom: 17%;
-  left: 2%;
-  transform: translateX(-2%, -17%);
-  -webkit-transform: translateX(-2%, -17%);
-  -moz-transform: translateX(-2%, -17%);
-  -ms-transform: translateX(-2%, -17%);
-  -o-transform: translateX(-2%, -17%);
+  left: 2.2%;
+  transform: translate(-2.2%);
+  -webkit-transform: translate(-2.2%);
+  -moz-transform: translate(-2.2%);
+  -ms-transform: translate(-2.2%);
+  -o-transform: translate(-2.2%);
 }
-.feater-item .item .favorite:hover {
-  opacity: 1;
+.feater-item .item .favorite a {
+  width: 175%;
+  max-height: 40px;
 }
 .feater-item .item .favorite .add {
-  height: 40px;
-  width: 140px;
   background-color: #d6ba8d;
 }
 .feater-item .item .favorite .add-to-cart {
@@ -554,12 +563,14 @@ ul li {
 }
 .feater-item .item .favorite ul {
   display: flex;
+  margin-left: 1px;
 }
 .feater-item .item .favorite ul li {
   height: 40px;
   width: 40px;
   background-color: #585858;
-  margin-right: 2px;
+  margin-right: 0.5px;
+  margin-left: 0.5px;
   line-height: 40px;
   text-align: center;
 }
@@ -700,23 +711,25 @@ ul li {
   color: #333333;
   padding-bottom: 100px;
 }
-.brand {
-  padding-top: 49px;
-  padding-bottom: 90px;
-}
 .brand-item {
   width: 16.6666%;
   padding: 0 15px;
   margin: 15px 0;
   box-sizing: border-box;
-  opacity: 0.5;
+  opacity: 0.3;
+  padding-top: calc((38/269)*100%);
   position: relative;
 }
 .brand-item img {
-  height: 30px;
-  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
   object-fit: scale-down;
-  object-position: top;
+  object-position: center;
 }
 .brand-item:hover {
   opacity: 1;
@@ -727,11 +740,12 @@ ul li {
 }
 .footer {
   background-color: #333333;
+  width: 100%;
 }
 .footer-top {
   padding-top: 64px;
   position: relative;
-  border-bottom: 3px solid #000;
+  border-bottom: 1px solid #242424;
   padding-bottom: 70px;
   display: flex;
   justify-content: space-between;
@@ -739,12 +753,12 @@ ul li {
 .footer-top .listmenu {
   position: absolute;
   top: 60%;
-  left: 26%;
-  transform: translateX(-26%, 0);
-  -webkit-transform: translateX(-26%, 0);
-  -moz-transform: translateX(-26%, 0);
-  -ms-transform: translateX(-26%, 0);
-  -o-transform: translateX(-26%, 0);
+  left: 48.5%;
+  transform: translate(-47.5%, 0);
+  -webkit-transform: translate(-47.5%, 0);
+  -moz-transform: translate(-47.5%, 0);
+  -ms-transform: translate(-47.5%, 0);
+  -o-transform: translate(-47.5%, 0);
 }
 .footer-top .listmenu ul {
   display: flex;
@@ -772,12 +786,12 @@ ul li {
   border: 2px solid #717171;
   position: absolute;
   top: 56%;
-  left: 86.5%;
-  transform: translateX(-86.5%, 0);
-  -webkit-transform: translateX(-86.5%, 0);
-  -moz-transform: translateX(-86.5%, 0);
-  -ms-transform: translateX(-86.5%, 0);
-  -o-transform: translateX(-86.5%, 0);
+  right: 0%;
+  transform: translate(0, 0);
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
 }
 .footer-top .sub:hover {
   background-color: #d6ba8d;
@@ -812,12 +826,12 @@ ul li {
 .footer-bottom .right ul {
   position: absolute;
   top: 16%;
-  left: 80.3%;
-  transform: translateX(-80.3%, 0);
-  -webkit-transform: translateX(-80.3%, 0);
-  -moz-transform: translateX(-80.3%, 0);
-  -ms-transform: translateX(-80.3%, 0);
-  -o-transform: translateX(-80.3%, 0);
+  right: 0%;
+  transform: translate();
+  -webkit-transform: translate();
+  -moz-transform: translate();
+  -ms-transform: translate();
+  -o-transform: translate();
   display: flex;
 }
 .footer-bottom .right ul .circle {
@@ -830,6 +844,9 @@ ul li {
   line-height: 44px;
   text-align: center;
   margin-left: 10px;
+}
+.footer-bottom .right ul .circle a i {
+  color: #ababab;
 }
 .footer-bottom .right ul .circle:hover {
   background-color: #d6ba8d;
