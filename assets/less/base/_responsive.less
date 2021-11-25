@@ -1,14 +1,18 @@
 @media all and (max-width:1200px){
   .header{
+    width: 100%;
     &-top{
       position: absolute;
       left: 0;
       top: 0;
-      .transform(translateX(0,0));
+      .transform(translate(0,0));
     }
     .slider{
       &-item{
         .slider-content{
+          top: 25%;
+          left: 65%;
+          .transform(translate(-65%,0));
           .summary{
             font-size: 21px;
           }
@@ -22,10 +26,11 @@
   .banner{
     &-small{
       &-inner1{
-        .title{
-          font-size: 14px;
+        .title1{
+          font-size: 17px;
         }
         .cost{
+          padding: 0;
           span{
             font-size: 18px;
           }
@@ -33,34 +38,41 @@
       }
       &-inner3{
         .title{
-          font-size: 17px;
+          font-size: 11px;
         }
         .cost-b{
-          span{
             font-size: 40px;
-          }
+            padding-top: 0;
         }
       }
       &-inner5{
-        .title{
-          font-size: 14px;
+        .title2{
+          font-size: 17px;
         }
         .cost{
-          span{
             font-size: 18px;
-          }
+            padding-top: 0;
         }
       }
     }
     &-big{
       &-inner2{
+        top: 19%;
+        left: 90.5%;
+        .transform(translate(-89.5%,0));
         .sale-up{
           font-size: 14px;
         }
-      .discount{
-          font-size: 40px;
+        .discount{
+          font-size: 72px;
+          padding-top: 0;
         }
-      .btn{  
+        .sale-up2{
+          font-size: 17px;
+          padding-top: 0;
+        }
+        .btn{ 
+          padding-top: 0; 
         }
       }
       &-inner6{
@@ -74,8 +86,7 @@
     .item{
       .favorite{
         .add{
-          height: 30px;
-          width: 120px;
+          width: 100%;
           .add-to-cart{
             line-height: 30px;
           }
@@ -97,12 +108,35 @@
     .slider{
       &-item{
         .slider-content{
+          .slider-left{
+            width: 800px;
+          }
           .summary{
             font-size: 17px;
           }
           .title{
             font-size: 51px;
+            line-height: 52px;
+            padding-bottom: 0;
           }
+        }
+      }
+    }
+  }
+  .content{
+    .text-info{
+      font-size: 22px;
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+    &-top{
+      .intro{
+        .big{
+          font-size: 15px;
+        }
+        .small{
+          font-size: 12px;
+          line-height: 10px;
         }
       }
     }
@@ -110,68 +144,77 @@
   .banner{
     &-small{
       &-inner1{
-        .title{
-          font-size: 12px;
+        .title1{
+          line-height: 11px;
         }
         .cost{
-          span{
-            font-size: 16px;
-          }
+
         }
       }
       &-inner3{
         .title{
-          font-size: 11px;
+
         }
         .cost-b{
-          span{
-            font-size: 27px;
-          }
+
         }
       }
       &-inner5{
         .title{
-          font-size: 12px;
+          font-size: 11px;
         }
-        .cost{
-          span{
-            font-size: 16px;
-          }
+        .cost2{
+          padding-top: 0;
         }
       }
     }
     &-big{
       &-inner2{
+        top: 23%;
+        left: 94%;
+        .transform(translate(-94%,0));
         .sale-up{
           font-size: 12px;
+          line-height: 30px;
         }
       .discount{
-          font-size: 30px;
+          font-size: 60px;
+        }
+        .sale-up2{
+          padding-top: 15px;
+          line-height: 44px;
         }
       .btn{ 
-        padding-top: 5px; 
+        padding-top: 0px; 
+        a{
+          line-height: 50px;
+        }
         }
       }
       &-inner6{
         .title{
-          font-size: 24px;
+          font-size: 36px;
+          line-height: 38px;
         }
         .detail{
           font-size: 12px;
+          padding-top: 0;
         }
       }
     }
+  }
+  .feater-nav-item .feater {
+    font-size: 35px;
   }
   .feater-item{
     .item{
       .favorite{
         width: 100%;
         .add{
-          height: 24px;
-          width: 80px;
+          width: 100%;
           .add-to-cart{
             font-size: 12px;
-            line-height: 30px;
+            line-height: 24px;
           }
         }
         ul{
@@ -185,7 +228,14 @@
     }
   }
   .blogupdate{
+    .title{
+      font-size: 35px;
+    }
     .blog-item{
+      margin: 0px 10px;
+      img{
+        max-height: 180px;
+      }
       .blog-inner{
         margin-top: -60px;
         .head{
@@ -215,7 +265,7 @@
         }
       }
       .sub{
-        width: 100px;
+        width: 150px;
       }
     }
   }
@@ -223,95 +273,111 @@
 
 @media all and (max-width:768px){
   .header{
-    &-top{
-      .bonfire{
-        img{
-          width: 140px;
-          height: 40px;
-        }
-      }
-      .nav{
-        font-size: 22px;
-      }
-    }
     .slider{
       &-item{
         .slider-content{
+          top: 20%;
+          left: 65%;
+          .transform(translate(-65%,0));
+          .slider-left{
+            width: 600px;
+          }
           .summary{
-            margin-top: 50px;
-            font-size: 12px;
+            font-size: 17px;
           }
           .title{
-            font-size: 30px;
-          }
-          .slider-left{
-            .discorver{
-              margin-top: 20px;
-              width: 150px;
-            }
+            font-size: 51px;
+            line-height: 52px;
+            padding-bottom: 0;
           }
         }
-
       }
     }
   }
   .content{
-    .text{
-      height: 140px;
-      &-info{
-        font-size: 21px;
-        padding-top: 50px;
+    .text-info{
+      font-size: 22px;
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+    &-top{
+      .intro{
+        .big{
+          font-size: 15px;
+        }
+        .small{
+          font-size: 12px;
+          line-height: 10px;
+        }
       }
     }
   }
   .banner{
     &-small{
       &-inner1{
-        .title{
+        top: 73%;
+        left: 50%;
+        .transform(translate(-50%,0));
+        .title1{
           font-size: 12px;
         }
         .cost{
-          span{
-            font-size: 16px;
-          }
+          font-size: 13px;
         }
       }
       &-inner3{
         .title{
-          font-size: 9px;
+          letter-spacing: 1px;
+          line-height: 16px;
         }
         .cost-b{
-          span{
-            font-size: 17px;
-          }
+          font-size: 28px;
+          line-height: 30px;
         }
       }
       &-inner5{
-        .title{
+        top: 68%;
+        left: 50%;
+        .transform(translate(-50%,0));
+        .title2{
           font-size: 12px;
         }
-        .cost{
+        .cost2{
           span{
-            font-size: 16px;
+            font-size: 13px;
           }
         }
       }
     }
     &-big{
       &-inner2{
+        top: 23%;
+        left: 88%;
+        .transform(translate(-88%,0));
         .sale-up{
-          font-size: 10px;
+
         }
       .discount{
-          font-size: 20px;
+          font-size: 40px;
+          line-height: 20px;
+        }
+        .sale-up2{
+              padding-top: 5px;
+              line-height: 40px;
+              font-size: 14px;
+              width: 125px;
         }
       .btn{ 
-        font-size: 12px;
+        padding-top: 0px; 
+        a{
+          font-size: 11px;
+        }
         }
       }
       &-inner6{
-        .title{
-          font-size: 15px;
+        .title3{
+          font-size: 26px;
+          line-height: 26px;
         }
         .detail{
           font-size: 10px;
@@ -319,23 +385,19 @@
       }
     }
   }
-  .feater-nav{
-    &-item{
-      .feater{
-        font-size: 45px;
-      }
-    }
+  .feater-nav-item .feater {
+    font-size: 35px;
   }
   .feater-item{
     .item{
       .favorite{
         width: 100%;
+        bottom: 23%;
         .add{
-          height: 24px;
-          width: 37px;
+          width: 100%;
           .add-to-cart{
             font-size: 12px;
-            line-height: 30px;
+            line-height: 24px;
           }
         }
         ul{
@@ -349,64 +411,566 @@
     }
   }
   .blogupdate{
+    .frame{
+      max-width: 40%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .title{
+      font-size: 35px;
+      top: -5%;
+      left: 50%;
+      transform: translate(-50%, 0%);
+    }
     .blog-item{
+      margin: 0px 0px;
+      img{
+        width: 100%;
+      }
       .blog-inner{
-        margin-top: -100px;
+        margin-top: -40px;
+        .date{
+          line-height: 2px;
+          padding: 75px 0 20px 5px;
+        }
         .head{
+          padding: 0px 0 0px 0px;
           a{
-            font-size: 15px;
+            font-size: 21px;
           }
         }
         .view{
-          margin-top: 1px;
+          padding-bottom: 50px;
         }
       }
     }
     .goto-blog{
-      padding-top: 0px;
+      padding-top: 30px;
+      padding-bottom: 50px;
     }
-  }
-  .brand{
-    padding-top: 40px;
   }
   .footer{
     .footer-top{
       .logo{
         img{
-          height: 70px;
-          width: 120px;
+          height: 68px;
+          width: 117px;
         }        
       }
       .listmenu{
         ul{
+          line-height: 0px;
           li{
             a{
-              font-size: 11px;
-              padding-right: 7px;
+              padding-right: 0px;
+            }
+        }
+        }
+      }
+      .sub{
+        width: 120px;
+        top: 50%;
+        right: 0%;
+        .sub-btn{
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+@media all and (max-width:576px){
+  .header{
+    .bonfire{
+      img{
+        width: 115px;
+        height: 35px;
+      }
+    }
+    .nav{
+      ion-icon{
+        font-size: 20px;
+      }
+      .dropdown{
+        margin-left: 15px;
+        .dropdown-btn{
+          ion-icon{
+            font-size: 20px;
+          }
+        }
+      }
+    }
+    .slider{
+      &-item{
+        .slider-content{
+          top: 20%;
+          left: 65%;
+          .transform(translate(-65%,0));
+          .slider-left{
+            width: 600px;
+          }
+          .summary{
+            font-size: 15px;
+            padding-bottom: 0px;
+          }
+          .title{
+            font-size: 25px;
+            line-height: 25px;
+            letter-spacing: 5px;
+          }
+        }
+      }
+    }
+  }
+  .content{
+    .text-info{
+      font-size: 16px;
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+    &-top{
+      .intro{
+        .big{
+          font-size: 12px;
+        }
+        .small{
+          font-size: 10px;
+          line-height: 10px;
+        }
+      }
+    }
+  }
+  .banner{
+    .feature-row{
+      background-color: burlywood;
+    }
+    &-small{
+      margin: 0 0;
+      padding: 0 0;
+      &-inner1{
+        top: 79%;
+        left: 53%;
+        .transform(translate(-53%,0));
+        .title1{
+          font-size: 12px;
+        }
+        .cost{
+          span{
+            font-size: 13px;
+          }
+        }
+      }
+      &-inner3{
+        top: 64%;
+        left: 34%;
+        .transform(translate(-34%,0));
+        .title{
+          line-height: 10px;
+          font-size: 10px;
+        }
+        .cost-b{
+          font-size: 20px;
+          line-height: 17px;
+        }
+      }
+      &-inner5{
+        top: 74%;
+        left: 50%;
+        .transform(translate(-50%,0));
+        .title2{
+          font-size: 12px;
+        }
+        .cost2{
+          span{
+            font-size: 13px;
+          }
+        }
+      }
+    }
+    &-big{
+      padding: 0px 15px;
+      margin: 15px 0;
+      &-inner2{
+        top: 23%;
+        left: 98%;
+        .transform(translate(-98%,0));
+        .sale-up{
+          letter-spacing: 2px;
+          line-height: 12px;
+          font-size: 12px;
+        }
+      .discount{
+          font-size: 30px;
+        }
+        .sale-up2{
+          padding-top: 20px;
+          line-height: 14px;
+          font-size: 14px;
+        }
+      .btn{ 
+        padding-top: 0px; 
+        a{
+          font-size: 11px;
+        }
+        }
+      }
+      &-inner6{
+        .title3{
+          font-size: 20px;
+          line-height: 20px;
+        }
+        .detail{
+          font-size: 10px;
+          line-height: 15px;
+        }
+      }
+    }
+  }
+  .feater-nav-item {
+    .feater {
+      font-size: 20px;
+    }
+    .view-more {
+      top: 10%;
+      right: 0.5%;
+    a{
+      font-size: 10px;
+    }
+  }
+}
+  .feater-item{
+    padding-top: 10px;
+    .item{
+      width: 50%;
+      .favorite{
+        bottom: 18%;
+      }
+    }
+  }
+  .blogupdate{
+    .frame{
+    max-width: 50%;
+    }
+    .title{
+      font-size: 35px;
+      top: -5%;
+      left: 50%;
+      transform: translate(-50%, 0%);
+    }
+    .blog-item{
+      margin: 0px 0px;
+      img{
+        width: 100%;
+      }
+      .blog-inner{
+        margin-top: -40px;
+        .date{
+          line-height: 2px;
+          padding: 75px 0 20px 5px;
+        }
+        .head{
+          padding: 0px 0 0px 0px;
+          a{
+            font-size: 21px;
+          }
+        }
+        .view{
+          padding-bottom: 50px;
+        }
+      }
+    }
+    .goto-blog{
+      padding-top: 30px;
+      padding-bottom: 50px;
+    }
+  }
+  .brand-item{
+    width: 32.6666%;
+  }
+  .footer{
+    .footer-top{
+      padding-top: 20px;
+      padding-bottom: 20px;
+      .logo{
+        img{
+          height: 68px;
+          width: 117px;
+        }        
+      }
+      .listmenu{
+        top: 40%;
+        left: 48.5%;
+        ul{
+          line-height: 0px;
+          li{
+            a{
+              padding-left: 5px;
+              font-size: 10px;
+            }
+        }
+        }
+      }
+      .sub{
+        width: 110px;
+        height: 30px;
+        top: 30%;
+        right: 0%;
+        .sub-btn{
+          font-size: 10px;
+          line-height: 30px;
+        }
+      }
+    }
+    .footer-bottom{
+      padding-top: 20px;
+      .left{
+        font-size: 10px;
+      }
+      .right{
+        ul{
+          .circle{
+            width: 35px;
+            height: 35px;
+            line-height: 35px;
+          }
+        }
+      }
+    } 
+  }
+}
+
+
+@media all and (max-width:375px){
+  .header{
+    .slider{
+      &-item{
+        .slider-content{
+          .summary{
+            font-size: 10px;
+            padding-bottom: 0px;
+          }
+          .title{
+            padding-top: 15px;
+            line-height: 10px;
+          }
+          .discorver{
+            width: 130px;
+            height: 50px;
+            &-button{
+              a{
+                font-size: 12px;
+                line-height: 40px;
+                text-align: center;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .content{
+    .text-info{
+      line-height: 25px;
+      font-size: 16px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    &-top{
+      .intro{
+        .big{
+          line-height: 17px;
+        }
+      }
+    }
+  }
+  .banner{
+    &-small{
+      margin: 0 0;
+      padding: 0 0;
+      &-inner1{
+        top: 79%;
+        left: 53%;
+        .transform(translate(-53%,0));
+        .title1{
+          font-size: 12px;
+        }
+        .cost{
+          span{
+            font-size: 13px;
+          }
+        }
+      }
+      &-inner3{
+        top: 64%;
+        left: 34%;
+        .transform(translate(-34%,0));
+        .title{
+          line-height: 10px;
+          font-size: 10px;
+        }
+        .cost-b{
+          font-size: 20px;
+          line-height: 17px;
+        }
+      }
+      &-inner5{
+        top: 74%;
+        left: 50%;
+        .transform(translate(-50%,0));
+        .title2{
+          font-size: 12px;
+        }
+        .cost2{
+          span{
+            font-size: 13px;
+          }
+        }
+      }
+    }
+    &-big{
+      padding: 0px 15px;
+      margin: 15px 0;
+      &-inner2{
+        top: 23%;
+        left: 98%;
+        .transform(translate(-98%,0));
+        .sale-up{
+          letter-spacing: 2px;
+          line-height: 12px;
+          font-size: 12px;
+        }
+      .discount{
+          font-size: 30px;
+        }
+        .sale-up2{
+          padding-top: 20px;
+          line-height: 14px;
+          font-size: 14px;
+        }
+      .btn{ 
+        padding-top: 0px; 
+        a{
+          font-size: 11px;
+        }
+        }
+      }
+      &-inner6{
+        .title3{
+          font-size: 20px;
+          line-height: 20px;
+        }
+        .detail{
+          font-size: 10px;
+          line-height: 15px;
+        }
+      }
+    }
+  }
+  .feater-nav-item {
+    .feater {
+      font-size: 30px;
+    }
+    .view-more {
+      top: 10%;
+      right: 0.5%;
+    a{
+      font-size: 10px;
+    }
+  }
+}
+  .feater-item{
+    padding-top: 10px;
+    .item{
+      width: 50%;
+      .favorite{
+        bottom: 25%;
+      }
+    }
+  }
+  .blogupdate{
+    width: 100%;
+    .frame{
+    max-width: 80%;
+    }
+    .title{
+      font-size: 30px;
+      top: -5%;
+      left: 50%;
+      transform: translate(-50%, 0%);
+    }
+    .blog-item{
+      .blog-inner{
+        .date{
+          padding: 55px 0 20px 5px;
+        }
+        .head{
+          padding: 0px 0 0px 0px;
+          a{
+            font-size: 18px;
+          }
+        }
+        .view{
+          padding-bottom: 50px;
+        }
+      }
+    }
+    .goto-blog{
+      padding-top: 30px;
+      padding-bottom: 50px;
+      a{
+        font-size: 15px;
+      }
+    }
+  }
+  .brand-item{
+    width: 32.6666%;
+  }
+  .footer{
+    .footer-top{
+      padding-top: 20px;
+      padding-bottom: 20px;
+      .logo{
+        img{
+          height: 50px;
+          width: 80px;
+        }        
+      }
+      .listmenu{
+        top: 45%;
+        right: 0%;
+        ul{
+          line-height: 0px;
+          li{
+            a{
+              padding-left: 5px;
+              font-size: 9px;
             }
         }
         }
       }
       .sub{
         width: 100px;
-        top: 36%;
-        left: 82%;
-        .transform(translateX(-82%,0));
-        font-size: 12px;
+        height: 20px;
+        top: 60%;
+        .sub-btn{
+          font-size: 8px;
+          line-height: 20px;
+        }
       }
     }
-    &-bottom{
+    .footer-bottom{
+      padding-top: 20px;
       .left{
-        font-size: 12px;
+        font-size: 10px;
       }
-    }
+      .right{
+        ul{
+          top: 50%;
+          left: 0%;
+          li{
+            margin-left: 7px;
+          }
+        }
+      }
+    } 
   }
-}
-
-@media all and (max-width:576px){
-   
-}
-
-@media all and (max-width:375px){
-
 }
