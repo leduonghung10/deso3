@@ -11,8 +11,8 @@
       &-item{
         .slider-content{
           top: 25%;
-          left: 65%;
-          .transform(translate(-65%,0));
+          left: 66%;
+          .transform(translate(-66%,0));
           .summary{
             font-size: 21px;
           }
@@ -24,6 +24,9 @@
     }
   }
   .banner{
+    .feature-container{
+      padding: 0px 25px;
+    }
     &-small{
       &-inner1{
         .title1{
@@ -49,9 +52,11 @@
         .title2{
           font-size: 17px;
         }
-        .cost{
+        .cost2{
+          padding-top: 7px;
+          span{
             font-size: 18px;
-            padding-top: 0;
+          }     
         }
       }
     }
@@ -147,16 +152,10 @@
         .title1{
           line-height: 11px;
         }
-        .cost{
-
-        }
       }
       &-inner3{
-        .title{
-
-        }
         .cost-b{
-
+          font-size: 35px;
         }
       }
       &-inner5{
@@ -171,7 +170,7 @@
     &-big{
       &-inner2{
         top: 23%;
-        left: 94%;
+        left: 94.5%;
         .transform(translate(-94%,0));
         .sale-up{
           font-size: 12px;
@@ -237,7 +236,6 @@
         max-height: 180px;
       }
       .blog-inner{
-        margin-top: -60px;
         .head{
           a{
             font-size: 21px;
@@ -314,6 +312,7 @@
   }
   .banner{
     &-small{
+      padding: 0px 10px;
       &-inner1{
         top: 73%;
         left: 50%;
@@ -350,13 +349,11 @@
       }
     }
     &-big{
+      padding: 0 0px;
       &-inner2{
         top: 23%;
-        left: 88%;
-        .transform(translate(-88%,0));
-        .sale-up{
-
-        }
+        left: 91.5%;
+        .transform(translate(-91%,0));
       .discount{
           font-size: 40px;
           line-height: 20px;
@@ -540,16 +537,51 @@
     }
   }
   .banner{
+    .banner1{
+      margin-bottom: 5px;
+    }
+    .banner2{
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    .banner6{
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    .banner5{
+      margin-bottom: 5px;
+    }
+    .banner3{
+      width: calc(100% / 12 * 4);
+      margin-left: 75px;
+      margin-bottom: 5px;
+    
+    }
+    .banner4{
+      width: calc(100% / 12 * 4);
+      margin-bottom: 5px;
+    }
+    width: 100%;
+    .feature-container{
+      padding: 0px 0px;
+      margin: 0px 0px;
+    }
     .feature-row{
-      background-color: burlywood;
+      background-color: #d6ba8d;
+      padding: 0px 0px;
+      margin: 0px 0px;
     }
     &-small{
-      margin: 0 0;
+      margin: 5px 0px;
       padding: 0 0;
+      width: calc(100% / 12 * 4);
+      img{
+        width: 93%;
+      }
       &-inner1{
-        top: 79%;
-        left: 53%;
-        .transform(translate(-53%,0));
+        top: 74%;
+        left: 50%;
+        .transform(translate(-50%,0));
         .title1{
           font-size: 12px;
         }
@@ -560,9 +592,9 @@
         }
       }
       &-inner3{
-        top: 64%;
-        left: 34%;
-        .transform(translate(-34%,0));
+        top: 76%;
+        left: 24%;
+        .transform(translate(-24%,0));
         .title{
           line-height: 10px;
           font-size: 10px;
@@ -586,13 +618,12 @@
         }
       }
     }
-    &-big{
-      padding: 0px 15px;
-      margin: 15px 0;
+    &-big{ 
+      width: calc(100% / 12 * 8);
       &-inner2{
         top: 23%;
-        left: 98%;
-        .transform(translate(-98%,0));
+        left: 92%;
+        .transform(translate(-92%,0));
         .sale-up{
           letter-spacing: 2px;
           line-height: 12px;
@@ -604,10 +635,10 @@
         .sale-up2{
           padding-top: 20px;
           line-height: 14px;
-          font-size: 14px;
+          font-size: 13px;
         }
       .btn{ 
-        padding-top: 0px; 
+        padding-top: 20px; 
         a{
           font-size: 11px;
         }
@@ -657,7 +688,7 @@
       transform: translate(-50%, 0%);
     }
     .blog-item{
-      margin: 0px 0px;
+      margin: 0px 0px 30px 0;
       img{
         width: 100%;
       }
@@ -674,7 +705,7 @@
           }
         }
         .view{
-          padding-bottom: 50px;
+          padding-bottom: 10px;
         }
       }
     }
@@ -783,13 +814,49 @@
     }
   }
   .banner{
+    .banner1{
+      margin-bottom: 5px;
+    }
+    .banner2{
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    .banner6{
+      margin-top: 5px;
+    }
+    .banner3{
+      width: calc(100% / 12 * 4);
+      margin-left: 75px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    
+    }
+    .banner4{
+      width: calc(100% / 12 * 4);
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    width: 100%;
+    .feature-container{
+      padding: 0px 0px;
+      margin: 0px 0px;
+    }
+    .feature-row{
+      background-color: #d6ba8d;
+      padding: 0px 0px;
+      margin: 0px 0px;
+    }
     &-small{
-      margin: 0 0;
+      margin: 5px 0px;
       padding: 0 0;
+      width: calc(100% / 12 * 4);
+      img{
+        width: 93%;
+      }
       &-inner1{
-        top: 79%;
-        left: 53%;
-        .transform(translate(-53%,0));
+        top: 64%;
+        left: 50%;
+        .transform(translate(-50%,0));
         .title1{
           font-size: 12px;
         }
@@ -813,11 +880,11 @@
         }
       }
       &-inner5{
-        top: 74%;
+        top: 64%;
         left: 50%;
         .transform(translate(-50%,0));
         .title2{
-          font-size: 12px;
+          font-size: 10px;
         }
         .cost2{
           span{
@@ -826,13 +893,12 @@
         }
       }
     }
-    &-big{
-      padding: 0px 15px;
-      margin: 15px 0;
+    &-big{ 
+      width: calc(100% / 12 * 8);
       &-inner2{
         top: 23%;
-        left: 98%;
-        .transform(translate(-98%,0));
+        left: 100%;
+        .transform(translate(-92%,0));
         .sale-up{
           letter-spacing: 2px;
           line-height: 12px;
@@ -842,18 +908,20 @@
           font-size: 30px;
         }
         .sale-up2{
-          padding-top: 20px;
+          padding-top: 10px;
           line-height: 14px;
-          font-size: 14px;
+          font-size: 10px;
         }
       .btn{ 
         padding-top: 0px; 
         a{
-          font-size: 11px;
+          font-size: 9px;
         }
         }
       }
       &-inner6{
+        top: 2%;
+        left: 11%;
         .title3{
           font-size: 20px;
           line-height: 20px;
@@ -889,7 +957,7 @@
   .blogupdate{
     width: 100%;
     .frame{
-    max-width: 80%;
+    max-width: 84%;
     }
     .title{
       font-size: 30px;
