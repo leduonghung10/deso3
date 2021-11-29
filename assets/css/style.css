@@ -1640,7 +1640,7 @@ ul li {
   }
   .banner-big-inner2 {
     top: 23%;
-    left: 100%;
+    left: 92%;
     transform: translate(-92%, 0);
     -webkit-transform: translate(-92%, 0);
     -moz-transform: translate(-92%, 0);
@@ -1659,12 +1659,14 @@ ul li {
     padding-top: 10px;
     line-height: 14px;
     font-size: 10px;
+    width: 80px;
   }
   .banner-big-inner2 .btn {
     padding-top: 0px;
   }
   .banner-big-inner2 .btn a {
     font-size: 9px;
+    line-height: 30px;
   }
   .banner-big-inner6 {
     top: 2%;
