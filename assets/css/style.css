@@ -1257,6 +1257,7 @@ ul li {
   }
   .header .nav .dropdown {
     margin-left: 15px;
+    width: 50%;
   }
   .header .nav .dropdown .dropdown-btn ion-icon {
     font-size: 20px;
@@ -1313,7 +1314,7 @@ ul li {
   }
   .banner .banner3 {
     width: calc(100% / 12 * 4);
-    margin-left: 75px;
+    margin-left: 100px;
     margin-bottom: 5px;
   }
   .banner .banner4 {
@@ -1325,7 +1326,6 @@ ul li {
     margin: 0px 0px;
   }
   .banner .feature-row {
-    background-color: #d6ba8d;
     padding: 0px 0px;
     margin: 0px 0px;
   }
@@ -1577,7 +1577,6 @@ ul li {
     margin: 0px 0px;
   }
   .banner .feature-row {
-    background-color: #d6ba8d;
     padding: 0px 0px;
     margin: 0px 0px;
   }
@@ -1702,7 +1701,10 @@ ul li {
     width: 100%;
   }
   .blogupdate .frame {
-    max-width: 84%;
+    max-width: 75%;
+  }
+  .blogupdate .bonfire-container {
+    padding: 0 0;
   }
   .blogupdate .title {
     font-size: 30px;
@@ -1741,7 +1743,7 @@ ul li {
     width: 80px;
   }
   .footer .footer-top .listmenu {
-    top: 45%;
+    top: 66%;
     right: 0%;
   }
   .footer .footer-top .listmenu ul {
@@ -1754,7 +1756,7 @@ ul li {
   .footer .footer-top .sub {
     width: 100px;
     height: 20px;
-    top: 60%;
+    top: 10%;
   }
   .footer .footer-top .sub .sub-btn {
     font-size: 8px;
