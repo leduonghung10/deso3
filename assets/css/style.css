@@ -1750,6 +1750,7 @@ ul li {
     right: 0%;
   }
   .footer .footer-top .listmenu ul {
+    display: none;
     line-height: 0px;
   }
   .footer .footer-top .listmenu ul li a {
@@ -1759,7 +1760,7 @@ ul li {
   .footer .footer-top .sub {
     width: 100px;
     height: 20px;
-    top: 10%;
+    top: 40%;
   }
   .footer .footer-top .sub .sub-btn {
     font-size: 8px;
