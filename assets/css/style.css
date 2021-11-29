@@ -1525,6 +1525,7 @@ ul li {
   .header .slider-item .slider-content .summary {
     font-size: 10px;
     padding-bottom: 0px;
+    letter-spacing: 7px;
   }
   .header .slider-item .slider-content .title {
     padding-top: 15px;
